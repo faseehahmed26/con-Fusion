@@ -1,0 +1,24 @@
+{
+  "name": "con-fusion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faseeh007/con-Fusion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faseeh007/con-Fusion/issues"
+  },
+  "homepage": "https://github.com/faseeh007/con-Fusion#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
