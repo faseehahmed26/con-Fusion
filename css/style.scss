@@ -2,9 +2,33 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$background-floralwhite:#FFFAF0;
 
 // Height variables
 $carousel-item-height: 300px;
+
+
+
+
+.modal-header{
+	background-color: $background-dark;
+    
+    .modal-title{
+        color: $background-floralwhite;
+        
+    }
+	.close
+        {
+            color: $background-floralwhite;
+            
+        }
+	 
+}
+.modal-body{
+		background-color: $background-pale;
+
+	}
+
 
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
